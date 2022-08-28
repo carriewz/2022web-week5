@@ -1,0 +1,199 @@
+---
+title: Boostrap Index
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<main>
+  <div class="container-fluid ">
+    <header class="d-flex justify-content-between align-items-center mb-5">
+      <div class="d-flex align-items-center ">
+        <h2 class="me-8">Assignment</h2>
+        <div class="dropdown">
+          <button class="btn d-flex fw-bold" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              All Courses
+              <span class="material-icons text-success">expand_more</span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">All Courses</a></li>
+              <li><a class="dropdown-item" href="#">All Courses</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex">
+        <a href="#"><span class="material-icons me-6">
+          search
+          </span></a>
+          <a href="#"><span class="material-icons">
+            notifications_active
+            </span></a>
+            
+      </div>
+    </header>
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="dropdown">
+        <button class="btn d-flex" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            All (4)
+            <span class="material-icons text-success">expand_more</span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">All (4)</a></li>
+            <li><a class="dropdown-item" href="#">All (4)</a></li>
+        </ul>
+      </div>
+      <p class="text-secondary fs-8">2 comments</p>
+    </div>
+    
+    <div class="row">
+      <div class="col-4">
+        <div class="list-group " id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="list-1-list" data-bs-toggle="list" href="#list-1" role="tab" aria-controls="list-1">
+           <div class="d-flex justify-content-between fs-8">
+              <p class="mb-1">Chapter Assignment 2</p>
+              <p class="mb-1">4 hrs ago</p>
+           </div>
+           <div class="d-flex justify-content-between">
+            <p class="mb-0 fw-bold">Please check this file…</p>
+            <p class="mb-0 text-secondary fs-8">Emily Wang</p>
+         </div>
+          </a>
+          
+           <a class="list-group-item list-group-item-action" id="list-2-list" data-bs-toggle="list" href="#list-2" role="tab" aria-controls="list-2">
+            <div class="d-flex justify-content-between fs-8">
+               <p class="mb-1">Chapter Assignment 1</p>
+               <p class="mb-1">12 hrs ago</p>
+            </div>
+            <div class="d-flex justify-content-between">
+             <p class="mb-0 fw-bold">My Homework</p>
+             <p class="mb-0 text-secondary fs-8">David Xu</p>
+          </div>
+           </a>
+           <a class="list-group-item list-group-item-action" id="list-3-list" data-bs-toggle="list" href="#list-3" role="tab" aria-controls="list-3">
+            <div class="d-flex justify-content-between fs-8">
+               <p class="mb-1">Final Assignment</p>
+               <p class="mb-1">18 hrs ago</p>
+            </div>
+            <div class="d-flex justify-content-between">
+             <p class="mb-0 fw-bold">Have a problem with this…</p>
+             <p class="mb-0 text-secondary fs-8">Tony Wei</p>
+          </div>
+           </a>
+           <a class="list-group-item list-group-item-action" id="list-4-list" data-bs-toggle="list" href="#list-4" role="tab" aria-controls="list-4">
+            <div class="d-flex justify-content-between fs-8">
+               <p class="mb-1">Final Assignment</p>
+               <p class="mb-1">19 hrs ago</p>
+            </div>
+            <div class="d-flex justify-content-between">
+             <p class="mb-0 fw-bold">Did I do it right?</p>
+             <p class="mb-0 text-secondary fs-8">Christina Lin</p>
+          </div>
+           </a>
+        </div>
+      </div>
+      
+      <div class="col-8">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="list-1" role="tabpanel" aria-labelledby="list-1">
+            <div class="card">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="my-1 fs-8">Chapter Assignment 2 / HTML&CSS</p>
+                  <p class="mb-1 fw-bold">Please check this file for me, thanks!</p>
+                </div>
+                <a href="#"><span class="material-icons">
+                  more_vert
+                  </span></a>
+              </div>
+              <div class="card-body ">
+                <div class="d-flex pe-5 ">
+                  <div class="flex-shrink-0">
+                    <img class="rounded-circle user-photo" src="./assets/images/emilywang.jpeg" alt="">
+                  </div>
+                  <div class="flex-grow-1 ms-2 border-bottom">
+                    <p class="mb-1 fw-bold">Emily Wang</p>
+                    <p class="text-secondary fw-normal mb-4 fs-8">10:38 AM (4 hours ago)</p>
+                    <p class="fs-7">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code class="ff-mono text-success">div</code> is bigger than the height of the <code class="ff-mono text-success">img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>What is the gap or extra space below image?</p>
+                    <a href="#" class="btn btn-light border mb-4" download="HW-2-David.zip">HW-2-David.zip</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body pt-0">
+                <div class="d-flex pe-5">
+                  <div class="flex-shrink-0">
+                    <img class="rounded-circle user-photo" src="./assets/images/andychen.jpeg" alt="">
+                  </div>
+                  <div class="flex-grow-1 ms-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <p class="mb-1 fw-bold">Andy Chen (You)</p>
+                      <div>
+                        <a href="#"><span class="material-icons me-6">
+                          star_outline
+                          </span></a>
+                          <a href="#">
+                            <span class="material-icons">
+                              edit
+                              </span>
+                          </a>
+                      </div>
+                    </div>
+                    
+                    <p class="text-secondary fw-normal mb-4 fs-8">13:24 AM (1 hours ago)</p>
+                    <p class="fs-7">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.<br><br> You can: 
+                      <ul class="fs-7">
+                        <li>adjust the <code class="ff-mono text-success"> vertical-align </code>of the image to position it elsewhere (e.g. the <code class="ff-mono text-success"> middle </code> ) or</li>
+                        <li>change the <code class="ff-mono text-success"> display </code> so it isn’t inline.</li>
+                      </ul>
+                    
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade show active" id="list-2" role="tabpanel" aria-labelledby="list-2">
+            <div class="card">
+              <div class="card-header d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="my-1 fs-8">Chapter Assignment 1 / HTML&CSS</p>
+                  <p class="mb-1 fw-bold">My Homework</p>
+                </div>
+                <a href="#">
+                  <span class="material-icons"> more_vert</span></a>
+              </div>
+              <div class="card-body ">
+                <div class="d-flex pe-5 ">
+                  <div class="flex-shrink-0">
+                    <img class="rounded-circle user-photo" src="./assets/images/emilywang.jpeg" alt="">
+                  </div>
+                  <div class="flex-grow-1 ms-2 border-bottom">
+                    <p class="mb-1 fw-bold">Emily Wang</p>
+                    <p class="text-secondary fw-normal mb-4 fs-8">10:38 AM (4 hours ago)</p>
+                    <p class="fs-7">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <code class="ff-mono text-success">div</code> is bigger than the height of the <code class="ff-mono text-success">img</code> ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>What is the gap or extra space below image?</p>
+                    <a href="#" class="btn btn-light border mb-4" download="HW-2-David.zip">HW-2-David.zip</a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="d-flex justify-content-between align-items-center mt-4">
+          <div>
+            <a href="#">
+              <span class="material-icons me-5">chevron_left</span></a>
+            <a href="#">
+              <span class="material-icons">chevron_right</span></a>
+          </div>
+          <div>
+            <button type="button" class="btn btn-outline-success me-4 px-6">Mark as read</button>
+            <button type="button" class="btn btn-success">Reply</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div id="editor" </div> -->
+  </div>
+</main>
